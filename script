@@ -1,0 +1,33 @@
+# A simple Python script demonstrating basic syntax and features
+
+# 1. Variables and Types
+name = "Alice"  # String
+age = 30  # Integer
+height = 5.6  # Float
+is_programmer = True  # Boolean
+
+# 2. Conditionals (If-Else)
+if is_programmer:
+    print(f"Hello {name}! Welcome to the world of Python.")
+else:
+    print("Hello guest!")
+
+# 3. Lists and Loops
+programming_languages = ["Python", "JavaScript", "C++", "Go"]
+
+print("\nSome popular programming languages:")
+for language in programming_languages:
+    print(f"- {language}")
+
+
+# 4. Functions
+def calculate_area(width, height):
+    """Calculates the area of a rectangle."""
+    return width * height
+
+
+# Using the function
+rect_width = 10
+rect_height = 5
+area = calculate_area(rect_width, rect_height)
+print(f"\nThe area of a {rect_width}x{rect_height} rectangle is: {area}")
